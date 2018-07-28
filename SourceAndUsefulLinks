@@ -1,2 +1,10 @@
 Naive Bayes
 https://gerardnico.com/data_mining/naive_bayes
+
+
+Naive Bayes splits the independent variables
+B = {x1, x2, x3...xN}
+Bayes Theorem: P(A given B) = P(A and B)/P(A)
+
+P(A|B) = P(B|A)*P(A)/P(B)
+P(A|B) = P(x1|A)*P(x2|A)*P(x3|A)*...P(xN|A)*P(A)/P(B)
