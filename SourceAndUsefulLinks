@@ -11,3 +11,6 @@ Bayes Theorem: P(A given B) = P(A and B)/P(A)
 
 P(A|B) = P(B|A)*P(A)/P(B)
 P(A|B) = P(x1|A)*P(x2|A)*P(x3|A)*...P(xN|A)*P(A)/P(B)
+
+So, now i Understand, what happens is that, we get class with features first. Through class we decide the weight of each features in it.
+Now when we have input, we get features, we take it's weights and decide what class it will fall into. Priori becomes Posteriori.
